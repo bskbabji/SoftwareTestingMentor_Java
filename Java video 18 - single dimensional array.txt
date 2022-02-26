@@ -1,0 +1,15 @@
+Array is a collection of objects that holds fixed number of values of a single type
+
+Array index starts with zero.
+
+two ways we can create arrays
+
+int[] myArray = new int[10]
+myArrat[0] =10;
+myArrat[0] =20;
+myArrat[0] =30;
+myArrat[0] =40;
+---------------------------------------------------------
+int[] myArray = {10,20,30,40}
+
+to find the lenght of the array, we can use myArray.length

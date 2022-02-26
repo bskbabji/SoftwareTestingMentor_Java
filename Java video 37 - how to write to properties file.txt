@@ -1,0 +1,9 @@
+we use FileWriter or FileOutputStream to write to files.
+
+<properties_object>.setProperty("key_name","value");
+<properties_object>.store( FileWriter or FileOutputStream object, "comments" or null);
+<properties_object>.clear();
+
+when we try to open a file using FileWriter or FileInputStream if we give file_path and true as paramenters, then the file gets created in append mode.
+
+

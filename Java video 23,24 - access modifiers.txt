@@ -1,0 +1,22 @@
+A class in Java can only have public or default access specifiers.
+
+any private variable or method is accessible only with the object of the same class.
+
+any default variable or default method are accessible only within the same package (with both the object of the same class and object of the sub class)
+
+
+
+any protected variable or protected method is accessible in the same class with its object
+							 in same package with the object of the same class
+						         in same package with object of the sub class
+							 in different package with object of the sub class
+
+any public variable or public method is accessible in the same class with its object
+						   in the same package with the object of the same class
+						   in the same package with object of the sub class
+						   in different package with object of the same class
+					           in different package with object of the sub class
+
+
+
+

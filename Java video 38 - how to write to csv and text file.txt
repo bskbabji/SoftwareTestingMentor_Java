@@ -1,0 +1,14 @@
+We use FileWriter to open the file either in create mode or append mode. we also have to give the file extension when opening the file 
+along with filename.
+We use BufferedWriter object to which we pass the FileWriter object , which mentions that we are writing to the file.
+
+a text file has .txt extension
+a properties file has .properties extension
+a csv file has .csv extension
+
+In csv file, the contents of the file are separated by comma. 
+
+for a text file, <BufferedWriter>.write("contents to write into file");
+for a csv file, <BufferedWriter>.write("contents to write into file" + ",");
+
+after every write() we need to flush the buffer using the flush() method to push the contents of the buffer to the file.

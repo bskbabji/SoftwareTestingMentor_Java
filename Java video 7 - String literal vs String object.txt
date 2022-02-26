@@ -1,0 +1,30 @@
+we can create String object two ways.
+
+String str1 = new String();
+str1 = "My name is Swapna";
+
+or
+
+String str = new String("My name is Swapna");   These String objects are stored in java heap.
+----------------------------------------------------------------------------------------------------
+Other way is 
+String str2 = "My name is Swapna";    This implicitly creates a String object but there is a subtle difference between the two ways
+                                       This creates the constant in the string constant pool and the variable str2 references to that constant.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+str1 == str2 gives false
+where as str1.equals(str2) gives true
+--------------------------------------------------------------------------------------------------------------------------------------
+  str1 == str2 checks if both str1 and str2 reference to the same string constant
+  str1.equals(str2) checks if the contents of str1 and str2 are the same
+---------------------------------------------------------------------------------------------------------------------------
+String str1 = "Swapna"
+String str2 = "Swapna"
+String str3 = new String("Swapna")
+
+str1 == str2  true         they point to the same string literal in memory
+str1 == str3 false         instead of the contents of the string, the location of the strings is checked here becasue str1 is a string literal whereas
+					str3 is a string object
+str3.equals(str1)     true        compares the contents of the strings
+
+whenever strings are used in comparison it is better to use the equals() function of the String class.
+

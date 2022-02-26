@@ -1,0 +1,6 @@
+A group of related classes and interfaces is called a package
+
+The use of package is access protection
+helps to avoid naming conflict
+
+using import we can access the classes from one package in a different package.

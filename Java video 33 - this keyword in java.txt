@@ -1,0 +1,16 @@
+this keyword is a reference variable that refers to the current object.
+When the local variables in class methods and constructors have the same names as that of instance vairables of that class, then to refer to the class 
+variables , we can use this.
+
+
+example: class Test
+{
+	int x;
+	int y;
+	publiv void setData(int x, int y)
+	  {
+
+		this.x = x;
+		this.y = y;
+	  }
+}

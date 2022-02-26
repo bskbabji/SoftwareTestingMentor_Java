@@ -1,0 +1,4 @@
+Encapsulation is the process if binding data and the methods that can operate on the data together in a capsule. This also help with restricting access
+and allows to set condition on the kind of data allowed or accepted.
+
+we use getter and setter methods to get and set data.

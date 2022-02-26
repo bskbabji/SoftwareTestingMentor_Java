@@ -1,0 +1,17 @@
+polymorphism means taking multiple forms.
+
+There are two types of polymorphim   - compile time polymorphism and run type polymorphism
+
+Compile time polymorphism
+-----------------------------
+
+Also known as early binding or static binding is acheived through method overloading
+
+different methods having the same name with different types of paramenters or different number of parameters.
+
+An example for method overloading is the Actions class click method , or the WebDriver class findElement method. 
+
+
+Run time polymorphism
+----------------------
+Also known as late bining or dynamic binding and is acheived through method overriding

@@ -1,0 +1,21 @@
+Constructors are used to initialize the data members of an object while its creation.
+Constructors have the same name as the class name
+Constructors do not have a return type not even void
+Constructors should always be public
+Constructor overloading is possible
+
+ when ever a statement like
+
+			new <class_name>() 
+
+is encountered a new object is created in memory. 
+
+Whenever an object is created, memory is allocated and a implicit constructor is invoked by the JVM. With implicit constructor, the default values 
+are zero or null.
+
+the other types of constructors are 
+
+				no argument constructor
+				parameterized constructor
+
+If we define atleast one parameterized constructor, we have to define a no argument default constructor otherwise we will get a run time exception.

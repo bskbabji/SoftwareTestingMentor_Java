@@ -1,0 +1,8 @@
+class name and file name should be the same.
+class name should start with a capital letter.
+
+camel case - conventions for naming variables, classes, methods
+
+syso ctrl+space gives System.out.println
+
+ctrl A    and then ctrl + shift + f will format the file 

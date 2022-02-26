@@ -1,0 +1,31 @@
+Types of inheritance in Java
+---------------------------------
+Single
+Multi-level
+Hierarchial
+Multiple      (multiple parents)
+Hybrid
+
+
+
+Inheritance allowed at class level
+-----------------------------------
+Single 
+Multi level   
+Hierarchial   (one parent, multiple child)
+
+If a class inherits a class or a interface inherits a interface, we use EXTENDS keyword  where as if a class inherits a interface we use IMPLEMENTS
+keyword
+
+Inheritance allowed at Interface level
+-------------------------------------------
+Single
+Multi-level
+Hierarchial
+Multiple
+Hybrid
+
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. ...
+ The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an
+ existing class, you can reuse methods and fields of the parent class.
+

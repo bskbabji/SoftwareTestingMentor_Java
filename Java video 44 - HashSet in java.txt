@@ -1,0 +1,11 @@
+A set does not allow duplicate values where as in a list that is array list we can store duplicate values.
+
+In arraylist , the elements are stored in the order of insertion, where as in a set, the elements are 
+unordered. so you cannot access elements based on index. 
+
+because the elements are unordered, we cannot remove the elements by index. but we can remove the elements 
+using the actual element itself.
+
+suppose say a hashSet contains (10,20,30,40)
+
+hashset.remove(10); can be done.

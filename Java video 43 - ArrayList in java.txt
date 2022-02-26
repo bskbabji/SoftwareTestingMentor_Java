@@ -1,0 +1,36 @@
+A list is represented by [ obj1, obj2,....]
+
+ArrayList al = new ArrayList(); // we can store objects of any data type in this array list
+
+To store a particular data type we need to declare the array list as below.
+ArrayList al<Integer> = new ArrayList<Integer>();
+to add object to a list there is
+ add(object)
+
+to remove an object 
+remove(index of the object)
+
+size() gives the size of the list
+
+to get an object 
+ get(index)
+
+
+for iterating through a list ,
+1. we can use regular for loop 
+      for (int i=0; i < al.size(); i++)
+           al.get(i);
+
+2. we can use foreach loop
+       for(Object obj : al)
+         System.out.print(obj);
+
+
+3. we can use the iterator() method 
+
+Iterator itr = al.iterator();
+
+while(itr.hasNext())
+   System.out.print(itr.next());
+		
+

@@ -1,0 +1,35 @@
+We need Apache POI to read or write to excel files.
+we have to download Apache POI before starting any programming
+
+we need following jar files from apache poi ( these are mandatory)
+
+poi-4.1.2 jar
+commons-collections . jar
+poi-ooxml. jar
+poi-ooxml-scheams.jar
+xmlbeans.jar
+commons-compress.jar
+
+but we can simply add all the apache poi jar files to the build path of the project before programming. 
+
+An excel file consists of sheets in a workbook, 
+Either to read from or write to an excel file, we first need to create the object of XSSFWorkbook class.
+
+XSSFWorkbook workbook = new XSSFWorkbook();
+
+To create sheets in workbook , we use XSSFSheet class
+
+XSSFSheet sheet1 = workbook.createSheet("name of the sheet");
+
+once we create the sheet we need to create rows.
+
+Row r0 = sheet1.createRow(0);
+
+In rows, we create cells
+
+Cell c0 = r0.createCell(0);
+
+After creating the contents of the workbook, we need to write the workbook to a file.
+
+So we have to create an object of FileOutputStream (FileWriter does not work).
+workbook.write(file_object)

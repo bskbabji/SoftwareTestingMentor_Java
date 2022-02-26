@@ -1,0 +1,7 @@
+Any variables defined within the method are called local variables.
+
+INSTANCE VARIABLE - A variable of the class which all the objects of the class can use is called a instance variable
+
+static variable
+
+variable names have to be meaningful and should say their purpose

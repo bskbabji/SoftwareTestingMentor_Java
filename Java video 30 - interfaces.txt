@@ -1,0 +1,15 @@
+Where as an abstract class can have a combination of abstract methods and concrete methods, an interface should have only abstract methods.
+
+an interface can have only abstract methods.
+
+a child class that inherits an interface should implement the interface using implements keyword.
+
+We cannot instantiate objects of an interface because an interface has all abstract methods.
+
+Java allows extending class to any class, but it has a limit. It means a class can extend only a single class at a time. ...
+When a class extends a class, then it is called single inheritance . If a class extends more than one class, it is called multi-inheritance(multiple 
+inheritance) , which is not allowed in Java
+
+
+a class cannot extend multiple parent classes but a class can implement multiple interfaces.
+ Using interfaces we can acheive multiple inheritance in java.

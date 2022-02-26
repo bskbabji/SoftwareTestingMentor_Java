@@ -1,0 +1,19 @@
+ Assignment operator =
+
+Arithmetic operators  = -  *    /(division)    % (remainder)
+
+unary operators + - ++ (increment)  -- (decrement)  !(logical compliment)
+
+Equality and relational operators   ==    !=  (not equal to)  >=  >    <   <=
+
+Conditional operators && ||  ?= (ternary operator , short hand for if-else)
+
+type comparison operator         instanceof
+
+BItwise and bitshift operators   ~  UNARY BITWISE COMPLEMENT 
+                                <<   SIGNED LEFT SHIFT
+                                >>   SIGNED RIGHT SHIFT
+                                >>>  UNSIGNED RIGHT SHIFT
+                                 &   BITWISE AND
+                                 ^   BITWISE EXCLUSIVE OR 
+                                 |   BITWISE INCLUSIVE OR	

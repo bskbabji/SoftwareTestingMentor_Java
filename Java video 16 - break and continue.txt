@@ -1,0 +1,7 @@
+For using a break statement , we need a condition.
+We can use break statement in while, do while, for and switch 
+
+when we use a break statement as and when the condition is met , the loop is exited.
+When we use continue, when the condition is met , the current iteration is skipped and proceeded to the next iteration.
+
+break and continue can only be used in loops and only with a condition

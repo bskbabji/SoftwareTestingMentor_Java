@@ -1,0 +1,13 @@
+In method overloading the signature of the method is different (like the type of parameters or number of parameters ) based on which the method to invoke 
+is chosen.
+
+Where as in Method overriding the signature of the methods is same and how a method is invoked is based upon several conditions.
+Method overriding comes in picture when there is inheritance.
+like for example, when the functionality provided by the parent class has to be tweaked in a way it suits the child class.
+
+when we override a parent class method in the child class, while execution the child class method is given preference over the parent class method.
+
+If the child class does not overide the parent class method, then the parent class method will be invoked.
+
+In the child class if the signature of the parent class method is altered( same method name with different arguments), then at the execution time, 
+the parent method or the child method that suits the signature is called.

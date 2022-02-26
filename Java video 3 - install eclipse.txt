@@ -1,0 +1,5 @@
+To install eclipse, jdk is the pre-requisite.
+go to www.eclipse.org/downloads/packages/
+
+and install eclipse IDE for java developers
+place eclipse folder and eclipse workspace folders in C drive

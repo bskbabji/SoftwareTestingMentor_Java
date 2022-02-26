@@ -1,0 +1,24 @@
+switch(expression)
+{
+       case 1: statements;
+		break;
+
+	case 2:statements;
+		break;
+	.
+	.
+	.
+	.
+	.
+	.
+	default: statements;
+		
+
+
+}
+
+without break statements , every statement after the condition is met gets executed. Like for example if case 2 is matched with the switch expression , 
+
+case 2, case 3, case 4 and so on ........and default all of them will get executes. BUt we do not want that to happen. we want only one of the case to be 
+
+executed and that is where break statement comes to help.

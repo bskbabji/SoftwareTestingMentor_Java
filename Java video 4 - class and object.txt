@@ -1,0 +1,10 @@
+what is class - a class is a template or blueprint. employee details like name ,age ,address
+what is object - an object is a specific instance of class. like the details of one particular employee.
+
+Employee e = new Employee();  is how an object of the class is created. This statement allocated memory for this object on the java heap.
+
+javaheap is the memory space taken by JVM from the operating system. after using the object, due to automatic garbage collection in java, the memory gets
+freed and we can reuse the memory.
+
+The Java heap is the area of memory used to store objects instantiated by applications running on the JVM. 
+Objects in the heap can be shared between threads. Many users restrict the Java heap size to 2-8 GB in order to minimize garbage collection pauses.

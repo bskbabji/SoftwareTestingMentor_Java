@@ -1,0 +1,23 @@
+    video 1
+-----------------------
+
+Java is simple because the syntax is very user friendly unlike C, C++
+There are no complex concepts of pointers and garbage collection.
+
+Java is a high level language because we use regular english words to write programs.
+the compiler converts high level language programs to low level machine language class files.
+
+
+Java is platform independent
+the interpreter which is part of JVM helps the java class file to be run on any kind of operating system.
+
+Java is object oriented because it has the concepts of object , class, abstraction, encapsulation, polymorphism ,
+inheritance.
+
+Secure
+Robust
+Interpreted
+HIgh performance                -------> refer to google to understand these features
+Multi threaded
+Distributed
+Dynamic 

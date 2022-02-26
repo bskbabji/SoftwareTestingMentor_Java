@@ -1,0 +1,16 @@
+In java we have Properties class. 
+Along with that we have to use FileReader or FileInputStream.
+
+the properties file should have .properties extension.
+properties file contains key=value pairs
+
+we have to create to properties object and we have to load it either with a file reader or file input stream object.
+we use getProperty method of Properties class to read 
+
+FileReader is a convenient class to read character files.
+Where as fileInputStream class is used to read streams of raw bytes of data.
+
+System.getProperty("user.dir") is useful when we export the project and share with team members they might store the project in a different drive and we
+do not want the program to fail as it is not able to find to file. 
+
+System.getProperty("user.dir") helps to provide dynamic path rather than a static file location.

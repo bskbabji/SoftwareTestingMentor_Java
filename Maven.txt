@@ -1,0 +1,19 @@
+
+Maven is a dependency management and build management tool
+
+As a dependency management tool , eclipse already comes integrated with maven.
+By giving dependies in pom.xml file all the necessary jar files are integrated automatically.
+Helps the team to maintian consistency that everyone works on the same jar versions.
+
+But to use maven as a build tool, we need to install maven on the machine and then add maven bin folder to path
+environment variable and create MVN_HOME variable to point out the maven folder( the parent folder of bin)
+to see if maven is installed properly, at command prompt give ( mvn -version ), if the system recognizes the command then maven is 
+installed properly. if the system says command not recognized then maven is not installed properly.
+
+In eclipse after we create a maven project, the JRE system library should show the jdk version installed. 
+right click on "jre system library" folder that is present in the maven project -> configure build bath and do the necessary changes. 
+
+
+File->New->Other->Maven->Maven Project 
+
+a maven project does not need a main() function.

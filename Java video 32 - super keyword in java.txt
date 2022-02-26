@@ -1,0 +1,18 @@
+super keyword in java is a reference variable which is used to refer immediate parent class object.
+whenever you create the instance of subclass, an instance of parent class is created implicitly which is 
+referred by super reference variable.
+
+super can be used to refer immediate parent class instance variable.
+
+When parent class and child class has the same variable name, to refer to variable of the parent class, we
+use super keyword.
+
+super can be used to immediate parent class method
+super() can be used to invoke immediate parent class constructor. This will be useful when the parent class 
+have parameterized constructor.
+
+
+
+java compiler invokes parent class default constructor automatically but not argument constructor.
+. when a parent class has parameterized 
+constructor, we have to use super() and pass the necessary arguments from the child class constructor.

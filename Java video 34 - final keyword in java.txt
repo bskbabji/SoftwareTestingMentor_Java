@@ -1,0 +1,12 @@
+final keyword restricts the user.
+final keyword can be used on a variable or a method or on a class.
+
+when we use final keyword on a instance variable you cannnot change its value once initialized.
+
+if a method in a parent class is declred as final, then the child class cannot override the parent class
+ method.
+
+But overloading a method in the same class is possible.
+
+if a class is declared as final, then any other class cannot inherit it.
+

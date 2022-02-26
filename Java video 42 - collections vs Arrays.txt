@@ -1,0 +1,9 @@
+Arrays have fixed size where as collections can grow and shrink dynamically
+arrays can store primitive data types where as collections can store objects.
+to convert primitive data types into objects , we need wrapper classes.
+But to store primitive data types in collections as objects , we do not need wrapper classes because 
+wrapping is done automatically. But while unwrapping that is storing a collections object in a primitive 
+data type variable we need to typecast .
+
+ArrayList and HashSet are widely used collections. ArrayList and HashSet implement collections interface.
+HashMap is the wide used Map. HashMap implements Map interface

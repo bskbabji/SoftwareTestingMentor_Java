@@ -1,0 +1,18 @@
+Install java and set path and java_home environment variables
+
+
+
+go to www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html and install java
+
+
+java will be installed in c:\Program Files\Java\jdk-17.0.1
+
+if you go to command prompt and type  java -version, if the system recognizes java then no need to add
+java (bin folder) path to environment variable path 
+
+otherwise add jdk bin folder path to path environment variable
+
+path    c:\Program Files\Java\jdk-17.0.1\bin
+
+we also have to create a new environment variable JAVA_HOME and set it to c:\Program Files\Java\jdk-17.0.1
+

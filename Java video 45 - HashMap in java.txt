@@ -1,0 +1,19 @@
+HashMap contains key-value pairs where keys are unique.
+
+not synchronized and no order
+
+hash Map can contain one null key and multiple null values
+
+
+where as an arrayList and hashSet can contain any kind of object , we have to mention the key data type and 
+the value data type while creating HashMap.
+
+
+For removing the elements, we can just specify the key or the key-value pair
+
+hashmap.get(key) will give the value associated with that particular key
+hashmap.keyset() will give a set of keys
+hashmap.put(key,value) to add key-value pairs to hash map.
+hashmap.values() gives a collection of values.
+hashmap.remove(key)
+hashmap.remove(key,value)

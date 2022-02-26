@@ -1,0 +1,3 @@
+condition ? true expression : false expression
+
+if condition is true , true expression gets evaluate and if condition is false, false expression gets evaluated.

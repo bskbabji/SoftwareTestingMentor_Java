@@ -1,0 +1,5 @@
+We use WHILE loop when we do not know the number of iterations.
+
+We use DO WHILE when we want to execute the loop atleast once even when we do not know the number of iterations.
+
+We use FOR loop when we know the number of iterations

@@ -1,0 +1,12 @@
+Throwable class will handle both Errors and Exceptions
+
+Throwable is a parent class for both Error and Exceptions classes.
+
+getMessage()
+getCause()
+getStackTrace()
+printStackTrace() are some of the methods the Throwable class
+
+in try block we write the statements that might cause a exception
+in catch block we will handle the exception
+code in finally block will always get executed.
